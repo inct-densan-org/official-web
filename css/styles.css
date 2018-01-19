@@ -17,8 +17,8 @@
 @font-face {
   font-family: "And Black";
   src: url("myfont-webfont.eot?#iefix") format('embedded-opentype'),
-       url("fonts/and_black.woff") format('woff'),
-       url("fonts/and_black.ttf") format('truetype');
+       url("../fonts/and_black.woff") format('woff'),
+       url("../fonts/and_black.ttf") format('truetype');
 }
 
 body {
@@ -187,9 +187,6 @@ a img{
   position: relative;
   height: 800px;
   width: auto;
-  background-color: #f3f3f3;
-  background: url('images/slide01.jpg') center 30% no-repeat;
-  background-size: cover;
   color: white;
 }
 
@@ -316,9 +313,7 @@ a img{
 
 .android-wear-section {
   position: relative;
-  background: url('images/wear.png') center top no-repeat;
-  background-size: cover;
-  height: 800px;
+  height: 250px;
 }
 
 .android-wear-band {
@@ -386,7 +381,7 @@ a img{
   }
 
 .android-customized-section-image {
-  background: url('images/devices.jpg') center top no-repeat;
+  background: url('../images/devices.jpg') center top no-repeat;
   background-size: cover;
   height: 400px;
 }
@@ -583,7 +578,7 @@ a img{
 .video-container .filter {
     z-index: 100;
     position: absolute;
-    background: rgba(0, 0, 0, 0.4);
+    /* background: rgba(0, 0, 0, 0.4); */
     width: 100%;
 }
 .video-container video {
