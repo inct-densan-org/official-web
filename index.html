@@ -116,20 +116,33 @@
       </div>
 
       <div class="android-content mdl-layout__content">
-        <a name="top"></a>
-        <div class="android-be-together-section mdl-typography--text-center">
-          <div class="android-font android-slogan">電子計算機部</div>
-          <div class="android-font android-sub-slogan">果てしない想像力のために。</div>
-		<!--<div class="android-font android-create-character">
-            <a href=""><img src="images/andy.png"> create your android character</a>
-          </div>
+		<a name="top"></a>
+		<div class="homepage-hero-module">
+			<div class="video-container">
+				<div class="filter">
+					<div class="android-be-together-section mdl-typography--text-center">
+						<div class="android-font android-slogan">電子計算機部</div>
+						<div class="android-font android-sub-slogan">果てしない想像力のために。</div>
+						<!--<div class="android-font android-create-character">
+					            <a href=""><img src="images/andy.png"> create your android character</a>
+					          </div>
 
-          <a href="#screens">
-            <button class="android-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect">
-              <i class="material-icons">expand_more</i>
-            </button>
-          </a>-->
-        </div>
+					          <a href="#screens">
+					            <button class="android-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+					              <i class="material-icons">expand_more</i>
+					            </button>
+					          </a>-->
+					</div>
+				</div>
+				<video autoplay loop class="fillWidth">
+					<source src="./movies/Hello-World.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+					<source src="./movies/Hello-World.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+				</video>
+				<div class="poster hidden">
+					<img src="./images/Hello-World.jpg" alt="">
+				</div>
+			</div>
+		</div>
 		<!--<div class="android-screen-section mdl-typography--text-center">
           <a name="screens"></a>
           <div class="mdl-typography--display-1-color-contrast">Powering screens of all sizes</div>
@@ -322,8 +335,9 @@
       </div>
     </div>
     <!--<a href="https://github.com/google/material-design-lite/blob/master/templates/android-dot-com/" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">View Source</a>-->
-    <script src="./bower_components/material-design-lite/material.min.js"></script>
-
+	<script src="./bower_components/material-design-lite/material.min.js"></script>
+	<script src="./bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="./js/script.js"></script>
 
   </body>
 </html>
