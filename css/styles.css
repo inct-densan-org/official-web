@@ -514,7 +514,8 @@ a img{
   }
 
   .android-be-together-section {
-    height: 350px;
+	height: 350px;
+	margin-top: 10rem;
   }
 
   .android-slogan {
