@@ -1,6 +1,12 @@
 //jQuery is required to run this code
 $(document).ready(function () {
 
+	$('#fakeLoader').fakeLoader({
+		timeToHide: 3000,
+		bgColor: '#34495e',
+		spinner: 'spinner4'
+	});
+
 	scaleVideoContainer();
 
 	initBannerVideoSize('.video-container .poster img');
