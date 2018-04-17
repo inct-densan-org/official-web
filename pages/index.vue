@@ -1,20 +1,15 @@
 <template>
   <section class="container">
     <div>
-      <app-logo/>
-      <h1 class="title">
-        nuxt
-      </h1>
-      <h2 class="subtitle">
-        Nuxt.js project
-      </h2>
+      <h1 class="title">一関高専 電子計算機部</h1>
+      <h2 class="subtitle">指先から、世界を変える。</h2>
       <div class="links">
         <a
-          href="https://nuxtjs.org/"
+          href="https://twitter.com/inct-densan/"
           target="_blank"
-          class="button--green">Documentation</a>
+          class="button--green">Official Twitter</a>
         <a
-          href="https://github.com/nuxt/nuxt.js"
+          href="https://github.com/inct-densan-org"
           target="_blank"
           class="button--grey">GitHub</a>
       </div>
@@ -23,17 +18,11 @@
 </template>
 
 <script>
-import AppLogo from '~/components/AppLogo.vue'
-
-export default {
-  components: {
-    AppLogo
-  }
-}
 </script>
 
-<style>
+<style lang="scss">
 .container {
+  background-color: #ff8c4f;
   min-height: 100vh;
   display: flex;
   justify-content: center;
