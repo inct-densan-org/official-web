@@ -15,3 +15,6 @@ dist
 
 # NPMを滅ぼす
 package-lock.json
+
+# logを消し飛ばす
+*.log
