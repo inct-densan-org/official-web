@@ -18,14 +18,16 @@
     "test": "yarn run lint"
   },
   "dependencies": {
-    "nuxt": "^1.0.0"
+    "axios": "^0.18.0",
+    "node-sass": "^4.8.3",
+    "nuxt": "^1.0.0",
+    "sass-loader": "^7.0.1"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
     "eslint": "^4.15.0",
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-loader": "^1.7.1",
-    "eslint-plugin-vue": "^4.0.0",
-    "stylus-loader": "^3.0.2"
+    "eslint-plugin-vue": "^4.0.0"
   }
 }
