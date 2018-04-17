@@ -1,8 +1,12 @@
 {
-  "name": "nuxt",
+  "name": "official-web",
   "version": "1.0.0",
-  "description": "Nuxt.js project",
+  "description": "一関高専電子計算機部のオフィシャルページ",
   "author": "Makoto Ito <3mdevmail@gmail.com>",
+  "contributors": [
+    "Yukibara(Yuta Matsubara) <Brrnt@users.noreply.github.com>",
+    "256kt <kwtoui101@gmail.com>"
+  ],
   "private": true,
   "scripts": {
     "dev": "nuxt",
