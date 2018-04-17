@@ -17,5 +17,13 @@ module.exports = {
     'vue'
   ],
   // add your custom rules here
-  rules: {}
+  rules: {
+    "semi": ["error", "never"],
+    "quotes": ["warn", "single"],
+    "space-before-blocks": ["warn", { "functions": "always" }],
+    "brace-style": "1tbs",
+    "camelcase": "always",
+    "comma-spacing": [2, { "before": false, "after": true }],
+    "comma-style": [2, "last"]
+  }
 }
