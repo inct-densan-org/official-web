@@ -25,9 +25,30 @@
           class="navbar-item">
           <i
             :class="item.fa"
-            class="fa-fw"/>
+            class="fa-fw"/>&nbsp;
           {{ item.title }}
         </nuxt-link>
+        <a
+          class="navbar-item"
+          href="https://blog.inct-densan.club"
+          target="blank">
+          <i class="far fa-newspaper fa-fw"/>&nbsp;
+          Blog
+        </a>
+        <a
+          class="navbar-item"
+          href="https://twitter.com/inct_densan"
+          target="_blank">
+          <i class="fab fa-twitter fa-fw"/>&nbsp;
+          Twitter
+        </a>
+        <a
+          class="navbar-item"
+          href="https://github.com/inct-densan-org"
+          target="_blank">
+          <i class="fab fa-github fa-fw"/>&nbsp;
+          GitHub
+        </a>
       </div>
     </div>
   </nav>
@@ -41,7 +62,8 @@ export default {
     showNav: false,
     items: [
       { fa: 'fas fa-home', title: 'Home', url: '/' },
-      { fa: 'fas fa-info-circle', title: 'About', url: '/about' }
+      { fa: 'fas fa-info-circle', title: 'About', url: '/about' },
+      { fa: 'fas fa-user-secret', title: 'Privacy', url: '/privacy' }
     ]
   })
 }
@@ -55,7 +77,21 @@ export default {
   height 30px
   margin 10px 0 0 12px
 
-.button-github
-  background-color #333
-  color #fff
+.fa-home
+  color #23d160
+
+.fa-info-circle
+  color #209cee
+
+.fa-newspaper
+  color #3F51B5
+
+.fa-user-secret
+  color #6846A5
+
+.fa-twitter
+  color #1da1f2
+
+.fa-github
+  color #333
 </style>
