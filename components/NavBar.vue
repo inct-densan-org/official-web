@@ -23,6 +23,9 @@
           :key="item.title"
           :to="item.url"
           class="navbar-item">
+          <i
+            :class="item.fa"
+            class="fa-fw"/>
           {{ item.title }}
         </nuxt-link>
       </div>
@@ -37,7 +40,8 @@ export default {
   data: () => ({
     showNav: false,
     items: [
-      { title: 'Home', url: '/' }
+      { fa: 'fas fa-home', title: 'Home', url: '/' },
+      { fa: 'fas fa-info-circle', title: 'About', url: '/about' }
     ]
   })
 }
