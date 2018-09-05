@@ -78,17 +78,15 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
+"@fortawesome/fontawesome-free-webfonts@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free-webfonts/-/fontawesome-free-webfonts-1.0.9.tgz#72f2c10453422aba0d338fa6a9cb761b50ba24d5"
+
 "@nuxtjs/bulma@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@nuxtjs/bulma/-/bulma-1.2.0.tgz#c558a01e78252046b9efa7aa642616dc8725c0a5"
   dependencies:
     bulma "^0.7.1"
-
-"@nuxtjs/font-awesome@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/font-awesome/-/font-awesome-1.0.3.tgz#66a88c8d9b0883dca992e3dd72e53fce22fcc418"
-  dependencies:
-    font-awesome "^4.7.0"
 
 "@nuxtjs/youch@^4.2.3":
   version "4.2.3"
@@ -2422,10 +2420,6 @@ flush-write-stream@^1.0.0:
   dependencies:
     inherits "^2.0.1"
     readable-stream "^2.0.4"
-
-font-awesome@^4.7.0:
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/font-awesome/-/font-awesome-4.7.0.tgz#8fa8cf0411a1a31afd07b06d2902bb9fc815a133"
 
 for-in@^1.0.2:
   version "1.0.2"

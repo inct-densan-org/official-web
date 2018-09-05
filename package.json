@@ -4,6 +4,11 @@
   "description": "独立行政法人国立高等専門学校機構一関工業高等専門学校 電子計算機部オフィシャルウェブ",
   "author": "",
   "private": true,
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0"
+    }
+  },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
@@ -13,8 +18,8 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
     "@nuxtjs/bulma": "^1.2.0",
-    "@nuxtjs/font-awesome": "^1.0.3",
     "nuxt": "^1.0.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2"
