@@ -33,6 +33,9 @@
 </template>
 
 <style lang="stylus" scoped>
+.hero
+  margin-top 3.23rem
+
 .contents
   margin-bottom 30px
 
