@@ -49,6 +49,13 @@
           <i class="fab fa-github fa-fw"/>&nbsp;
           GitHub
         </a>
+        <a
+          class="navbar-item"
+          href="https://form.run/@inct-densan"
+          target="_blank">
+          <i class="fas fa-at fa-fw"/>&nbsp;
+          Contact
+        </a>
       </div>
     </div>
   </nav>
@@ -63,6 +70,7 @@ export default {
     items: [
       { fa: 'fas fa-home', title: 'Home', url: '/' },
       { fa: 'fas fa-info-circle', title: 'About', url: '/about' },
+      { fa: 'fas fa-cogs', title: 'Skills', url: '/skills' },
       { fa: 'fas fa-user-secret', title: 'Privacy', url: '/privacy' }
     ]
   })
@@ -83,11 +91,17 @@ export default {
 .fa-info-circle
   color #209cee
 
+.fa-cogs
+  color #dd2798
+
 .fa-newspaper
   color #3F51B5
 
 .fa-user-secret
   color #6846A5
+
+.fa-at
+  color #ef443b
 
 .fa-twitter
   color #1da1f2
