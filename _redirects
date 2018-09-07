@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://densan.netlify.com/* https://inct-densan.club/:splat 301!
