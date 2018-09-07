@@ -35,6 +35,9 @@ module.exports = {
   ],
   modules: [
     '@nuxtjs/bulma',
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-112475633-2'
+    }]
   ],
   /*
   ** Customize the progress bar color
