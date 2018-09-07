@@ -8,6 +8,7 @@ module.exports = {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '独立行政法人国立高等専門学校機構一関工業高等専門学校 電子計算機部オフィシャルウェブ' },
+      { hid: 'og:title', name: 'og:title', content: '一関高専電子計算機部' },
       { hid: 'og:description', name: 'og:description', content: '独立行政法人国立高等専門学校機構一関工業高等専門学校 電子計算機部オフィシャルウェブ' },
       { hid: 'og:type', name: 'og:type', content: 'website' },
       { hid: 'og:url', name: 'og:url', content: 'https://inct-densan.club' },
