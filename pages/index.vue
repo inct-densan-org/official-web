@@ -8,6 +8,9 @@
 import Hero from '~/components/Hero.vue'
 
 export default {
+  fetch ({store}) {
+    store.commit('resetMenu')
+  },
   components: {
     Hero
   }

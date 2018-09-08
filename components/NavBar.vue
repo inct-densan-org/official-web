@@ -7,15 +7,14 @@
         <p>一関高専 電算部</p>
       </nuxt-link>
       <div
-        :class="{'is-active': showNav}"
+        :class="{'is-active': $store.state.isMenuActive}"
         class="navbar-burger burger burger-font-icon"
-        @click="showNav = !showNav">
+        @click="$store.commit('toggleMenu')">
         <img src="@/assets/menu.svg">
       </div>
     </div>
     <div
-      id="navbarExampleTransparentExample"
-      :class="{'is-active':showNav}"
+      :class="{'is-active': $store.state.isMenuActive}"
       class="navbar-menu">
       <div class="navbar-start">
         <nuxt-link
@@ -63,10 +62,7 @@
 
 <script>
 export default {
-  components: {
-  },
   data: () => ({
-    showNav: false,
     items: [
       { fa: 'fas fa-home', title: 'Home', url: '/' },
       { fa: 'fas fa-info-circle', title: 'About', url: '/about' },

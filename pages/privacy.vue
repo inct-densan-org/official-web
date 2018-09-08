@@ -30,6 +30,14 @@
   </div>
 </template>
 
+<script>
+export default {
+  fetch ({store}) {
+    store.commit('resetMenu')
+  }
+}
+</script>
+
 <style lang="stylus" scoped>
 .hero
   margin-top 3.23rem
