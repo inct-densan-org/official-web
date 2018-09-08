@@ -76,6 +76,9 @@ export default {
 .contents
   margin-bottom 30px
 
+.container
+  padding-left 1rem
+  padding-right 1rem
 .title
   margin-top 20px
 

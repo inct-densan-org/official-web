@@ -27,6 +27,9 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+.container
+  padding-top 3.23rem
+
 .contents
   padding-bottom 30px
 </style>

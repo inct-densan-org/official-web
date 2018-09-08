@@ -47,4 +47,6 @@ export default {
 
 .container
   margin-top 20px
+  padding-left 1rem
+  padding-right 1rem
 </style>

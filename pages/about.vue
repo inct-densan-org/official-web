@@ -14,7 +14,7 @@
     </div>
     <div class="container">
       <div>
-        <h2 class="title is-1">電算部とは…?</h2>
+        <h2 class="title is-1">電算部とは？</h2>
         <p class="desc">
           電算部とは、一関高専の部活動の1つであり、正式名称は「電子計算機部」です。
           プログラミングやセキュリティ、ネットワーク、ゲーム開発などを行っています。
@@ -81,6 +81,8 @@ export default {
 
 .container
   margin-top 20px
+  padding-left 1rem
+  padding-right 1rem
 
 .notification
   margin-top 20px
@@ -89,9 +91,6 @@ export default {
 .no-space
   margin 0
   padding 0
-
-.desc
-  padding-left 1em
 
 .top-space
   margin-top 20px
