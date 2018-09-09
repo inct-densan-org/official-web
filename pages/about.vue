@@ -19,10 +19,12 @@
           電算部とは、一関高専の部活動の1つであり、正式名称は「電子計算機部」です。
           プログラミングやセキュリティ、ネットワーク、ゲーム開発などを行っています。
         </p>
-        <div class="notification is-info">
-          電算部では動画やイラスト、DTM(音楽)などの人員が不足しています！<br>
-          この機会にあなたも電子計算機部に入部しませんか？
-        </div>
+        <article class="message is-info">
+          <div class="message-body">
+            電算部では動画やイラスト、DTM(音楽)などの人員が不足しています！<br>
+            この機会にあなたも電子計算機部に入部しませんか？
+          </div>
+        </article>
       </div>
       <div class="contents">
         <h2 class="title is-1">活動概要</h2>
