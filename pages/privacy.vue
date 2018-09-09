@@ -34,6 +34,14 @@
 export default {
   fetch ({store}) {
     store.commit('resetMenu')
+  },
+  head: {
+    title: 'Privacy | 一関高専 電算部',
+    meta: [
+      { hid: 'description', name: 'description', content: 'プライバシーポリシー' },
+      { hid: 'og:description', name: 'og:description', content: 'プライバシーポリシー' },
+      { hid: 'og:url', name: 'og:url', content: 'https://inct-densan.club/privacy' }
+    ]
   }
 }
 </script>

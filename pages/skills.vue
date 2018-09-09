@@ -65,6 +65,14 @@
 export default {
   fetch ({store}) {
     store.commit('resetMenu')
+  },
+  head: {
+    title: 'Skills | 一関高専 電算部',
+    meta: [
+      { hid: 'description', name: 'description', content: '私達が扱える技術など' },
+      { hid: 'og:description', name: 'og:description', content: '私達が扱える技術など' },
+      { hid: 'og:url', name: 'og:url', content: 'https://inct-densan.club/skills' }
+    ]
   }
 }
 </script>
