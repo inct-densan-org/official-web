@@ -21,6 +21,9 @@ module.exports = {
     "vue"
   ],
   "rules": {
+    "vue/require-prop-types": [
+      "off"
+    ],
     "indent": [
       "error",
       2
