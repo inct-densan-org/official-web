@@ -67,6 +67,7 @@ export default {
       { fa: 'fas fa-home', title: 'Home', url: '/' },
       { fa: 'fas fa-info-circle', title: 'About', url: '/about' },
       { fa: 'fas fa-cogs', title: 'Skills', url: '/skills' },
+      { fa: 'fas fa-trophy', title: 'Activities', url: '/activities' },
       { fa: 'fas fa-user-secret', title: 'Privacy', url: '/privacy' }
     ]
   })
@@ -92,6 +93,9 @@ export default {
 
 .fa-newspaper
   color #3F51B5
+
+.fa-trophy
+  color #f46b42
 
 .fa-user-secret
   color #6846A5
