@@ -27,6 +27,7 @@
             class="fa-fw"/>&nbsp;
           {{ item.title }}
         </nuxt-link>
+        <!--
         <a
           class="navbar-item"
           href="https://blog.inct-densan.club"
@@ -34,6 +35,7 @@
           <i class="far fa-newspaper fa-fw"/>&nbsp;
           Blog
         </a>
+        -->
         <a
           class="navbar-item"
           href="https://twitter.com/inct_densan"
