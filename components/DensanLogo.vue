@@ -1,6 +1,6 @@
 <template>
   <div class="logo">
-    <img src="https://media.inct-densan.club/site/densan-circle-logo.png">
+    <img src="../static/densan-circle-logo.png">
   </div>
 </template>
 
