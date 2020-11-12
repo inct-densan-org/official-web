@@ -46,7 +46,13 @@ export default {
       { contestName: '全国高専プログラミングコンテスト 課題部門', contestURL: 'http://www.procon.gr.jp/', year: 2017, result: '特別賞 / パテント審査優秀賞' },
       { contestName: '全国高専プログラミングコンテスト 自由部門', contestURL: 'http://www.procon.gr.jp/', year: 2017, result: '敢闘賞 / パテント審査優良賞' },
       { contestName: 'KOSENセキュリティコンテスト2017', contestURL: 'http://sckosen2017.kisarazu.ac.jp/', year: 2017, result: '35チーム中17位' },
-      { contestName: 'KOSENセキュリティコンテスト2018', contestURL: 'https://sckosen2018.sasebo.ac.jp/', year: 2018, result: '35チーム中17位' }
+      { contestName: '日本情報オリンピック', contestURL: 'https://www.ioi-jp.org/', year: 2017, result: '本戦出場' },
+      { contestName: '全国高専プログラミングコンテスト 課題部門', contestURL: 'http://www.procon.gr.jp/', year: 2018, result: '敢闘賞 / パテント審査優良賞' },
+      { contestName: 'KOSENセキュリティコンテスト2018', contestURL: 'https://sckosen2018.sasebo.ac.jp/', year: 2018, result: '35チーム中17位' },
+      { contestName: '全国高専プログラミングコンテスト 自由部門', contestURL: 'http://www.procon.gr.jp/', year: 2019, result: '敢闘賞 / パテント審査優良賞' },
+      { contestName: '日本情報オリンピック', contestURL: 'https://www.ioi-jp.org/', year: 2019, result: '本戦出場' },
+      { contestName: '全国高専プログラミングコンテスト 課題部門', contestURL: 'http://www.procon.gr.jp/', year: 2020, result: '特別賞' }
+
     ].reverse()
   }),
   head: {
