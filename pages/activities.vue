@@ -54,7 +54,7 @@ export default {
       { contestName: '全国高専プログラミングコンテスト 課題部門', contestURL: 'http://www.procon.gr.jp/', year: 2020, result: '特別賞' },
       { contestName: 'パソコン甲子園2020　プログラミング部門', contestURL: 'http://web-ext.u-aizu.ac.jp/pc-concours/', year: 2020, result: '総合10位' },
       { contestName: '日本情報オリンピック　第20回', contestURL: 'https://www.ioi-jp.org/', year: 2020, result: '本選出場' },
-      { contestName: '全国高専プログラミングコンテスト 課題部門', contestURL: 'http://www.procon.gr.jp/', year: 2022, result: '本選出場' },
+      { contestName: '全国高専プログラミングコンテスト 課題部門', contestURL: 'http://www.procon.gr.jp/', year: 2022, result: '敢闘賞' },
       { contestName: 'ICPC 2022 Asia Yokohama Regional', contestURL: 'https://icpc.iisf.or.jp/2022-yokohama/', year: 2022, result: 'アジア地区大会出場' }
 
     ].reverse()
